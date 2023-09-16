@@ -99,4 +99,3 @@ TW_DEFAULT_LANGUAGE := en
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 1200
-TW_NO_SCREEN_TIMEOUT := true
