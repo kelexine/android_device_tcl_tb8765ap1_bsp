@@ -34,6 +34,7 @@
 /flashinfo                  emmc        /dev/block/by-name/flashinfo
 /loader_ext1                emmc        /dev/block/by-name/loader_ext1
 /loader_ext2                emmc        /dev/block/by-name/loader_ext2
+/sec1                       emmc        /dev/block/by-name/sec1
 
 # External Partitions
 /external_sd              auto     /dev/block/mmcblk0p1         /dev/block/mmcblk0   flags=display="Micro SD Card";storage;wipeingui;removable
