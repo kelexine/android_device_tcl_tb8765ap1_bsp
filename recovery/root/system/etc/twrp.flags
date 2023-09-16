@@ -32,7 +32,7 @@
 /spmfw                      emmc        /dev/block/by-name/spmfw
 /boot_para                  emmc        /dev/block/by-name/boot_para
 /flashinfo                  emmc        /dev/block/by-name/flashinfo
-
+/                  emmc        /dev/block/by-name/boot_para
 
 # External Partitions
 /external_sd              auto     /dev/block/mmcblk0p1         /dev/block/mmcblk0   flags=display="Micro SD Card";storage;wipeingui;removable
