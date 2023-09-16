@@ -5,8 +5,8 @@
 /dev/block/by-name/vendor          /vendor         erofs       rw      wait,mounttodecrypt
 
 # Main Partitions ext4
-/dev/block/by-name/system          /system         ext4        rw      wait,logical,first_stage_mount;mounttodecrypt
-/dev/block/by-name/vendor          /vendor         ext4        rw      wait,logical,first_stage_mount;mounttodecrypt
+/dev/block/by-name/system          /system         ext4        rw      wait,first_stage_mount;mounttodecrypt
+/dev/block/by-name/vendor          /vendor         ext4        rw      wait,first_stage_mount;mounttodecrypt
 
 # Other Partitions
 /dev/block/by-name/metadata     /metadata   ext4                noatime,nosuid,nodev,discard                                                                                     wait,check,formattable,first_stage_mount
