@@ -102,6 +102,9 @@ TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_MAX_BRIGHTNESS := 1400
 TW_DEFAULT_BRIGHTNESS := 600
 TW_EXCLUDE_TWRPAPP := true
+TW_EXCLUDE_PYTHON := true
+TW_EXCLUDE_NANO := true
+TW_HAS_MTP := true
 
 # Debug
 TWRP_INCLUDE_LOGCAT := true
