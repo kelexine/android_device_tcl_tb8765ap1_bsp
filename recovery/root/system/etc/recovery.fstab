@@ -1,8 +1,5 @@
 # Initial fstab file, need more improvement
 
-# Main Partitions erofs
-/dev/block/by-name/system          /system         erofs       rw      wait,mounttodecrypt
-/dev/block/by-name/vendor          /vendor         erofs       rw      wait,mounttodecrypt
 
 # Main Partitions ext4
 /dev/block/by-name/system          /system         ext4        rw      wait,logical,avb=vbmeta_system,first_stage_mount;mounttodecrypt
